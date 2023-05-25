@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A8CAE3"
+    android:background="#ff7096"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mad Lib"
+        android:fontFamily="@font/aubrey"
+        android:text="MAD LIB"
+        android:textColor="#FDA8BC"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -55,9 +58,10 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Going to the Beach"
-        android:textColor="#0F1D50"
-        android:textSize="20sp"
+        android:fontFamily="@font/damion"
+        android:text="Barbie's Dreamhouse"
+        android:textColor="#F8F6F7"
+        android:textSize="32sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -74,9 +78,11 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fill in the blanks according to its part of speech"
-        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="FILL IN ACCORDING TO ITS PART OF SPEECH"
+        android:textColor="#FDA8BC"
         android:textSize="10sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -85,7 +91,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#A8CAE3"
+        android:background="#ff7096"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
@@ -93,28 +99,100 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8">
 
         <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/aubrey"
+            android:inputType="text"
+            android:text="name"
+            android:textColor="#F4A5BE"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/aubrey"
+            android:inputType="text"
+            android:text="name"
+            android:textColor="#F4A5BE"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/aubrey"
+            android:inputType="text"
+            android:text="name"
+            android:textColor="#F4A5BE"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/aubrey"
+            android:inputType="text"
+            android:text="name"
+            android:textColor="#F4A5BE"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/aubrey"
+            android:inputType="text"
+            android:text="name"
+            android:textColor="#F4A5BE"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
             android:id="@+id/editTextText4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="@font/aubrey"
             android:inputType="text"
-            android:text="Name" />
+            android:text="name"
+            android:textColor="#F4A5BE"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextText5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="@font/aubrey"
             android:inputType="text"
-            android:text="Name" />
+            android:text="name"
+            android:textColor="#F4A5BE"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextText6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="@font/aubrey"
             android:inputType="text"
-            android:text="Name" />
+            android:text="name"
+            android:textColor="#F4A5BE"
+            android:textSize="14sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

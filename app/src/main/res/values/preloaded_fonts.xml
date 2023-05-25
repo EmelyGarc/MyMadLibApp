@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amita</item>
+        <item>@font/aubrey</item>
+        <item>@font/codystar</item>
+        <item>@font/codystar_light</item>
+        <item>@font/damion</item>
+        <item>@font/dhurjati</item>
+    </array>
+</resources>
