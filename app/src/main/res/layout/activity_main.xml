@@ -100,25 +100,25 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8">
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/et_noun"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:fontFamily="@font/aubrey"
             android:inputType="text"
-            android:text="name"
+            android:hint="noun"
             android:textColor="#F4A5BE"
             android:textSize="14sp"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/et_adjective"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:fontFamily="@font/aubrey"
             android:inputType="text"
-            android:text="name"
+            android:hint="adjective"
             android:textColor="#F4A5BE"
             android:textSize="14sp"
             android:textStyle="bold" />
@@ -130,7 +130,7 @@
             android:ems="10"
             android:fontFamily="@font/aubrey"
             android:inputType="text"
-            android:text="name"
+            android:hint="name"
             android:textColor="#F4A5BE"
             android:textSize="14sp"
             android:textStyle="bold" />
@@ -142,7 +142,7 @@
             android:ems="10"
             android:fontFamily="@font/aubrey"
             android:inputType="text"
-            android:text="name"
+            android:hint="name"
             android:textColor="#F4A5BE"
             android:textSize="14sp"
             android:textStyle="bold" />
@@ -154,7 +154,7 @@
             android:ems="10"
             android:fontFamily="@font/aubrey"
             android:inputType="text"
-            android:text="name"
+            android:hint="name"
             android:textColor="#F4A5BE"
             android:textSize="14sp"
             android:textStyle="bold" />
@@ -166,7 +166,7 @@
             android:ems="10"
             android:fontFamily="@font/aubrey"
             android:inputType="text"
-            android:text="name"
+            android:hint="name"
             android:textColor="#F4A5BE"
             android:textSize="14sp"
             android:textStyle="bold" />
@@ -178,7 +178,7 @@
             android:ems="10"
             android:fontFamily="@font/aubrey"
             android:inputType="text"
-            android:text="name"
+            android:hint="name"
             android:textColor="#F4A5BE"
             android:textSize="14sp"
             android:textStyle="bold" />
@@ -190,10 +190,19 @@
             android:ems="10"
             android:fontFamily="@font/aubrey"
             android:inputType="text"
-            android:text="name"
+            android:hint="name"
             android:textColor="#F4A5BE"
             android:textSize="14sp"
             android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textColor="#FFFFFF"
+            app:iconTint="#000000"
+            app:rippleColor="#404040" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
